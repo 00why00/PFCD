@@ -1,0 +1,11 @@
+# Baseline setting for training original dataset
+
+data: coco.yaml # (str, optional) path to data file, i.e. coco8.yaml
+epochs: 500 # (int) number of epochs to train for
+batch: 128 # (int) number of images per batch (-1 for AutoBatch)
+imgsz: 640 # (int | list) input images size as int for train and val modes, or list[w,h] for predict and export modes
+save: True # (bool) save train checkpoints and predict results
+save_period: -1 # (int) Save checkpoint every x epochs (disabled if < 1)
+device: [4, 5] # (int | str | list, optional) device to run on, i.e. cuda device=0 or device=0,1,2,3 or device=cpu
+name: baseline # (str, optional) experiment name, results saved to 'project/name' directory
+seed: 42 # (int) random seed for reproducibility

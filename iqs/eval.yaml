@@ -1,0 +1,17 @@
+# Baseline setting for evaluation original dataset
+
+task: detect # (str) YOLO task, i.e. detect, segment, classify, pose
+mode: val # (str) YOLO mode, i.e. train, val, predict, export, track, benchmark
+data: coco.yaml # (str, optional) path to data file, i.e. coco8.yaml
+
+# Val/Test settings ----------------------------------------------------------------------------------------------------
+val: True # (bool) validate/test during training
+split: val # (str) dataset split to use for validation, i.e. 'val', 'test' or 'train'
+save_json: False # (bool) save results to JSON file
+save_hybrid: False # (bool) save hybrid version of labels (labels + additional predictions)
+conf: # (float, optional) object confidence threshold for detection (default 0.25 predict, 0.001 val)
+iou: 0.7 # (float) intersection over union (IoU) threshold for NMS
+max_det: 300 # (int) maximum number of detections per image
+half: False # (bool) use half precision (FP16)
+dnn: False # (bool) use OpenCV DNN for ONNX inference
+plots: False # (bool) save plots and images during train/val
