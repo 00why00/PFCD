@@ -25,7 +25,7 @@
 ## News
 
 * **2025-05:** 🔥 Code and weights are released!
-* **2025-04:** Our paper is accepted by **IJCAI 2024**.
+* **2025-04:** 🤗 Our paper is accepted by **IJCAI 2025**.
 
 ## Prepare Environment
 
