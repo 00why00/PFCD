@@ -1,8 +1,8 @@
 # 🐾 Prompt-Free Conditional Diffusion for Multi-object Image Augmentation
 
 <div align="center">
-  <a href="https://arxiv.org/abs/2505.xxxxx">
-    <img src="https://img.shields.io/badge/arXiv%20paper-2505.xxxxx-b31b1b.svg" alt="arXiv Paper">
+  <a href="https://arxiv.org/abs/2507.xxxxx">
+    <img src="https://img.shields.io/badge/arXiv%20paper-2507.xxxxx-b31b1b.svg" alt="arXiv Paper">
   </a>
   <a href="https://huggingface.co/0why0/PFCD">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Weights-0why0/PFCD-yellow">
@@ -24,7 +24,7 @@
 
 ## News
 
-* **2025-05:** 🔥 Code and weights are released!
+* **2025-07:** 🔥 Code and weights are released!
 * **2025-04:** 🤗 Our paper is accepted by **IJCAI 2025**.
 
 ## Prepare Environment
@@ -111,7 +111,7 @@ If you find this code useful for your research, please consider citing our paper
 @article{wang2025prompt,
   title={Prompt-Free Conditional Diffusion for Multi-object Image Augmentation},
   author={Wang, Haoyu and Zhang, Lei and Wei, Wei and Ding, Chen and Zhang, Yanning},
-  journal={IJCAI},
+  booktitle={Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence (IJCAI)},
   year={2025},
 }
 ```
