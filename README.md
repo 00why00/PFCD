@@ -1,8 +1,8 @@
 # 🐾 Prompt-Free Conditional Diffusion for Multi-object Image Augmentation
 
 <div align="center">
-  <a href="https://arxiv.org/abs/2507.xxxxx">
-    <img src="https://img.shields.io/badge/arXiv%20paper-2507.xxxxx-b31b1b.svg" alt="arXiv Paper">
+  <a href="https://arxiv.org/abs/2507.06146">
+    <img src="https://img.shields.io/badge/arXiv%20paper-2507.06146-b31b1b.svg" alt="arXiv Paper">
   </a>
   <a href="https://huggingface.co/0why0/PFCD">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Weights-0why0/PFCD-yellow">
